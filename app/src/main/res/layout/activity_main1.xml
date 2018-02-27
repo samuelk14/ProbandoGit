@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.pc.probandogit.MainActivity1">
 
     <TextView
@@ -15,22 +17,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="323dp" />
 
-    <SeekBar
-        android:id="@+id/seekBar2"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:max="10"
-        android:progress="3"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="374dp" />
 
     <Button
         android:id="@+id/button"
@@ -56,4 +43,4 @@
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="71dp" />
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
