@@ -40,7 +40,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RadioButton"
+        android:padding="30dp"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"/>
 
 </LinearLayout>
